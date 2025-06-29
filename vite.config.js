@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 3000,
-    allowedHost: ['.pac.elitmus.com'],
+    allowedHosts: ['.pac.elitmus.com'],
   },
   test: {
     globals: true,
